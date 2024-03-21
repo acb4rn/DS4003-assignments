@@ -127,6 +127,6 @@ def update_graph(countries, selected_years): #creating the function for the new 
 
 # run the app using the jupyter_mode="tab" parameter and debug=True
 if __name__ == '__main__':
-    app.run_server(jupyter_mode='tab', debug=True)
+    app.run_server(debug=True)
 
 
