@@ -82,6 +82,7 @@ gap_long['gdp'] #double checking that the function and float applied correctly
 stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css'] 
 
 app = Dash(__name__, external_stylesheets=stylesheets) # initialize the app
+server = app.server
 
 # %%
 #generating the app
